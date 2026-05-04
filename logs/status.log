@@ -1,1 +1,22 @@
-2026-05-04 04:58:03 - 8.8.8.8 is DOWN
+2026-05-05 03:03:00 - NOTICE: Log rotated (limit 10KB reached)
+2026-05-05 03:03:00 - google.com is UP
+2026-05-05 03:03:02 - google.com is UP
+2026-05-05 03:03:01 - 8.8.8.8 is DOWN
+2026-05-05 03:03:04 - github.com is UP
+2026-05-05 03:03:04 - 1.1.1.1 is UP
+2026-05-05 03:03:04 - thisisnotreal.com is UP
+--- SUMMARY: 4/5 servers online ---
+------------------------------------------------
+2026-05-05 03:03:02 - 8.8.8.8 is DOWN
+2026-05-05 03:03:05 - github.com is UP
+2026-05-05 03:03:06 - 1.1.1.1 is UP
+2026-05-05 03:03:06 - thisisnotreal.com is UP
+--- SUMMARY: 4/5 servers online ---
+------------------------------------------------
+2026-05-05 03:04:01 - google.com is UP
+2026-05-05 03:04:01 - 8.8.8.8 is DOWN
+2026-05-05 03:04:04 - github.com is UP
+2026-05-05 03:04:04 - 1.1.1.1 is UP
+2026-05-05 03:04:04 - thisisnotreal.com is UP
+--- SUMMARY: 4/5 servers online ---
+------------------------------------------------
