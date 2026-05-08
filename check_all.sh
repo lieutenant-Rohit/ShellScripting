@@ -32,6 +32,8 @@ do
         ((SUCCESS++))
     else
         echo "$TIMESTAMP - $site is DOWN" >> logs/status.log
+        # --- ALARM 1: Server Alert (Fixed Syntax) ---
+        osascript -e "display notification \"$site is DOWN!\" with title \"Server Alert\""
     fi
 done
 
@@ -44,6 +46,8 @@ USAGE=$(df -h / | grep "/" | awk '{print $5}' | tr -d '%')
 
 if [ "$USAGE" -gt 90 ]; then
     echo "$(date "+%Y-%m-%d %H:%M:%S") - ALERT: Disk Usage is CRITICAL at ${USAGE}%!" >> logs/status.log
+    # --- ALARM 2: Disk Alert (Fixed Syntax) ---
+    osascript -e "display notification \"Disk is ${USAGE}% full!\" with title \"Storage Alert\""
 fi
 
 echo "------------------------------------------------" >> logs/status.log
